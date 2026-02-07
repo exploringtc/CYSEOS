@@ -1,0 +1,29 @@
+# Build outputs
+build/
+build-*/
+bin/
+
+# Toolchain build dirs
+src/build-*/
+
+# Object and binary artifacts
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.iso
+*.img
+*.map
+*.d
+
+# Logs
+*.log
+
+# Editor/OS cruft
+.DS_Store
+*.swp
+*.swo
+
+# Large source archives
+*.tar.gz
